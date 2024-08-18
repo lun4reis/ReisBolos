@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+*{
+    font-family: inter;
+    font-weight: 500;
+}
+header{
+    display: flex;
+    background: #C28A99;
+}
+#logo{
+    align-content: center;
+}
+#logo img{
+    width: 278px;
+    height: 274px;
+}
+#header-content{
+    width:80%;
+}
+#header-searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    margin-top: 40px;
+}
+#header-searchbar input{
+    width: 400px;
+    border: 0;
+    height: 40px;
+}
+#header-searchbar input:focus{
+    outline: none;
+}
+nav{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 55px;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#texto{
+    display: flex;
+    gap: 80px;
+    font-size: 24px;
+    border-bottom: solid 2px black;
+    margin: 40px;
+}
+#side-a, #side-b{
+    width: 50%;
+}
+#side-a>div{
+    display: flex;
+    gap: 120px;
+}
+#precos{
+    text-align: center;
+    font-size: 24px;
+}
